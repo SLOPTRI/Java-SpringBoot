@@ -1,3 +1,5 @@
+package Repaso_Examen_Ficheros.Ejercicios_1;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,7 +9,7 @@ public class Ejercicio_8 {
 
         int counter = 0;
 
-        BufferedReader reader = new BufferedReader(new FileReader("resources/datos.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Java/Repaso_Examen_Ficheros/resources/datos.txt"));
         String line;
 
         while((line = reader.readLine()) != null){

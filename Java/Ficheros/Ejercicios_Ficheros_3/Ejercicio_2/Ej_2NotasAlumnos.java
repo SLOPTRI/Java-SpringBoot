@@ -1,4 +1,4 @@
-package Ejercicios_Ficheros_3.Ejercicio_2;
+package Ficheros.Ejercicios_Ficheros_3.Ejercicio_2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Ej_2NotasAlumnos {
     public static void main(String[] args) throws IOException {
-        String fileName = "/home/slt/Escritorio/Programacion/Java/Ficheros/Ejercicios_Ficheros_3/Documentos/alumnos_notas.txt";
+        String fileName = "Java/Ficheros/Ejercicios_Ficheros_3/Documentos/alumnos_notas.txt";
 
         List<Alumno> alumnos = calcularNotasMedias(fileName);
 

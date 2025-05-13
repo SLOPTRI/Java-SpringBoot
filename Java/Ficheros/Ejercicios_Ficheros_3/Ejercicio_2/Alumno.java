@@ -1,4 +1,4 @@
-package Ejercicios_Ficheros_3.Ejercicio_2;
+package Ficheros.Ejercicios_Ficheros_3.Ejercicio_2;
 
 public class Alumno {
 

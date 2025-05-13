@@ -3,7 +3,7 @@ import java.io.*;
 public class Ejercicio_5 {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader reader = new BufferedReader(new FileReader("resources/datos.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Java/Repaso_Examen_Ficheros/resources/datos.txt"));
         String linea;
         int x = 0;
         String[] palabras;
