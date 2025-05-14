@@ -1,3 +1,5 @@
+package Ventas;
+
 import java.util.Scanner;
 
 public class Ventas {

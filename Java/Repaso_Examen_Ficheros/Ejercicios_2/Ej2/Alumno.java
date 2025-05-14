@@ -1,15 +1,15 @@
-package Repaso_Examen_Ficheros.Ejercicios_2.Ejercicio_2;
+package Repaso_Examen_Ficheros.Ejercicios_2.Ej2;
 
 public class Alumno {
 
     private String nombre;
     private String apellido;
-    private int notaMedia;
+    private Double notaMedia;
 
     public Alumno(String nombre,String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
-        this.notaMedia = 0;
+        this.notaMedia = 0.0;
     }
 
     public void setNombre(String nombre) {
@@ -20,7 +20,7 @@ public class Alumno {
         this.apellido = apellido;
     }
 
-    public void setNotaMedia(int x){
+    public void setNotaMedia(Double x){
         this.notaMedia = x;
     }
 
@@ -32,7 +32,7 @@ public class Alumno {
         return apellido;
     }
 
-    public int getNotaMedia() {
+    public Double getNotaMedia() {
         return notaMedia;
     }
 

@@ -21,8 +21,8 @@ public class Ejercicio_3 {
         //String archivoA = sc.nextLine();
         //System.out.println("Introduce el nombre del archivo b: ");
         //String archivoB = sc.nextLine();
-        String archivoA = "/home/slt/Escritorio/Programacion/Java/Ficheros/Ejercicios_Ficheros_3/Documentos/usa_personas.txt";
-        String archivoB = "/home/slt/Escritorio/Programacion/Java/Ficheros/Ejercicios_Ficheros_3/Documentos/usa_personas_sorted.txt";
+        String archivoA = "Java/Ficheros/Ejercicios_Ficheros_3/Documentos/usa_personas.txt";
+        String archivoB = "Java/Ficheros/Ejercicios_Ficheros_3/Documentos/usa_personas_sorted.txt";
 
         ordenarArchivo(archivoA,archivoB);
 

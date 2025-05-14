@@ -1,10 +1,10 @@
-package Repaso_Examen_Ficheros.Ejercicios_2.Ejercicio_1;
+package Repaso_Examen_Ficheros.Ejercicios_2.Ej1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Ejercicio_1 {
+public class Ejercicio1 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader reader = new BufferedReader(new FileReader("Java/Repaso_Examen_Ficheros/resources/numeros.txt"));

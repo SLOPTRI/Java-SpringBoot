@@ -1,4 +1,4 @@
-package Producto;
+package Json.Producto;
 
 public class Producto {
 
